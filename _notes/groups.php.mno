@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_groupsRS" value="name:_id;datatype:int,name:group;datatype:string,name:status;datatype:int,name:image;datatype:string,name:dateStart;datatype:date,name:dateEnd;datatype:date,name:visibility;datatype:int,name:status;datatype:string" />
+</info>
