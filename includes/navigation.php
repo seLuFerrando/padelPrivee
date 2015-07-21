@@ -3,24 +3,10 @@
           <div id="menu_rwd" class="col25">
             <nav class="nav">
             <ul>
-              <li><a class="<?php echo $classes[0]; ?>" href="<?php echo $hrefs[0]; ?>" >
-                <span class="center"><?php echo $texts[0]; ?></span></a></li>
-              <li><a class="<?php echo $classes[1]; ?>" href="<?php echo $hrefs[1]; ?>">
-                <span class="center"><?php echo $texts[1]; ?></span></a></li>
-              <li><a class="<?php echo $classes[2]; ?>" href="<?php echo $hrefs[2]; ?>">
-                <span class="center"><?php echo $texts[2]; ?></span></a></li>
-              <li><a class="<?php echo $classes[3]; ?>" href="<?php echo $hrefs[3]; ?>">
-                <span class="center"><?php echo $texts[3]; ?></span></a></li>
-              <li><a class="<?php echo $classes[4]; ?>" href="<?php echo $hrefs[4]; ?>">
-                <span class="center"><?php echo $texts[4]; ?></span></a></li>
-              <li><a class="<?php echo $classes[5]; ?>" href="<?php echo $hrefs[5]; ?>">
-                <span class="center"><?php echo $texts[5]; ?></span></a></li>
-              <li><a class="<?php echo $classes[6]; ?>" href="<?php echo $hrefs[6]; ?>">
-                <span class="center"><?php echo $texts[6]; ?></span></a></li>
-              <li><a class="<?php echo $classes[7]; ?>" href="<?php echo $hrefs[7]; ?>">
-                <span class="center"><?php echo $texts[7]; ?></span></a></li>
-              <li><a class="<?php echo $classes[8]; ?>" href="<?php echo $hrefs[8]; ?>">
-                <span class="center"><?php echo $texts[8]; ?></span></a></li>
+              <?php for ($i=0;$i<count($classes);$i++){ ?>
+                <li><a class="<?php echo $classes[$i]; ?>" href="<?php echo $hrefs[$i]; ?>" >
+                  <span class="center"><?php echo $texts[$i]; ?></span></a></li>
+              <?php } ?>
             </ul>
             </nav>
           </div>

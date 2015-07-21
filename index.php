@@ -66,7 +66,7 @@
              "",
              "notifications.php",
              "",
-             "clients.php",
+             "customers.php",
              "orders.php",
              "",
              "index.php");
